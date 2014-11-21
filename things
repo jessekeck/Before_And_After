@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Retouch</title>
+		
+		<!-- START BEFORE/AFTER WIDGET -->
+		<script type="text/javascript" src="http://www.catchmyfame.com/jquery/beforeafter/js/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="http://www.catchmyfame.com/jquery/beforeafter/js/jquery-ui-1.8.13.custom.min.js"></script>
+		<script type="text/javascript" src="http://www.catchmyfame.com/jquery/beforeafter/js/jquery.beforeafter-1.4.min.js"></script>
+		<script type="text/javascript">
+		$(function(){
+			$('#container1').beforeAfter({imagePath:'/jquery/beforeafter/js/'});
+			$('#container2').beforeAfter({imagePath:'/jquery/beforeafter/js/'});
+			$('#container3').beforeAfter({imagePath:'/jquery/beforeafter/js/'});
+			$('#container4').beforeAfter({imagePath:'/jquery/beforeafter/js/'});
+			$('#container5').beforeAfter({imagePath:'/jquery/beforeafter/js/'});
+			$('#container6').beforeAfter({imagePath:'/jquery/beforeafter/js/'});
+			$('#container7').beforeAfter({imagePath:'/jquery/beforeafter/js/'});
+			$('#container8').beforeAfter({imagePath:'/jquery/beforeafter/js/'});
+		});
+		</script>
+		
+		<style> html{display : none ; } </style>
+		<script>
+			if( self == top ) {
+				document.documentElement.style.display = 'block' ; 
+			} else {
+				top.location = self.location ; 
+			}
+		</script>
+		<!--END BEFORE/AFTER WIDGET -->
+		
+		<!--STYLE -->
+		<style type="text/css">
+			body {
+				background: #fff;
+			}
+			#content {
+				margin:0 auto;
+				width:755px;
+			}
+			#container + div.balinks {
+			<!--	margin-left: 200px; -->
+			}
+		</style>
+  </head>
+
+	<body>
+		<div id="content">
+			<div id="container1">
+				<div><img alt="before" src="images\dark.png" width="600" height="419" /></div>
+				<div><img alt="after" src="images\light.png" width="600" height="419" /></div>
+			</div>
+			<div id="container2">
+				<div><img alt="before" src="images\bay_boats_before.png" width="600" height="419" /></div>
+				<div><img alt="after" src="images\bay_boats_after.png" width="600" height="419" /></div>
+			</div>
+			<div id="container3">
+				<div><img alt="before" src="images\bike_before.png" width="600" height="419" /></div>
+				<div><img alt="after" src="images\bike_after.png" width="600" height="419" /></div>
+			</div>
+			<div id="container5">
+				<div><img alt="before" src="images\rings_before.png" width="600" height="419" /></div>
+				<div><img alt="after" src="images\rings_after.png" width="600" height="419" /></div>
+			</div>
+		</div>
+	</body>
+</html>
